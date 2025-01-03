@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <title>Intro component with sign up form</title>
+  <link rel="stylesheet" href="/assets/style.css">
+</head>
+
+<body>
+  <main>
+    <aside class="main__content">
+      <h1 class="title">
+        Learn to code by watching others
+      </h1>
+      <p class="subtitle">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great,
+        but understanding how developers think is invaluable.
+      </p>
+    </aside>
+
+    <aside class="form">
+      <div class="bonus">
+        <p class="bonus__MSG"><b>Try it free 7 days</b> then $20/mo. thereafter</p>
+      </div>
+      <div class="contact__form">
+        <div class="input_form">
+          <div class="input">
+            <input type="text" name="firstName" id="firstName" class="input-type" placeholder="First Name">
+            <img src="/images/icon-error.svg" alt="" draggable="false" class="input-image">
+            <div class="error">
+              <p class="error-MSG hidden">First Name cannot be empty</p>
+            </div>
+          </div>
+          <div class="input">
+            <input type="text" name="lastName" id="lastName" class="input-type" placeholder="Last Name">
+            <img src="/images/icon-error.svg" alt="" draggable="false" class="input-image">
+            <div class="error">
+              <p class="error-MSG hidden">Last Name cannot be empty</p>
+            </div>
+          </div>
+          <div class="input">
+            <input type="email" name="email" id="email" class="input-type" placeholder="Email Address">
+            <img src="/images/icon-error.svg" alt="" draggable="false" class="input-image">
+            <div class="error">
+              <p class="error-MSG hidden">Looks like this is not an email</p>
+            </div>
+          </div>
+          <div class="input">
+            <input type="password" name="password" id="password" class="input-type" placeholder="Password">
+            <img src="/images/icon-error.svg" alt="" draggable="false" class="input-image">
+            <div class="error">
+              <p class="error-MSG hidden">Password cannot be empty</p>
+            </div>
+          </div>
+          <button class="btn">Claim your free trial</button>
+          <p class="NB">By clicking the button, you are agreeing to our <span><b>Terms and Services</b></span></p>
+        </div>
+      </div>
+    </aside>
+  </main>
+</body>
+<script src="/assets/script.js"></script>
+
+</html>
